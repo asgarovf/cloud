@@ -92,6 +92,7 @@ body {
     padding-top: 1rem;
     padding-bottom: 4rem;
     position: relative;
+    z-index: 1003 !important;
   }
   .navigation-small.active {
     position: fixed;
@@ -136,7 +137,7 @@ body {
     font-weight: 400 !important;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .header {
     padding-top: 1.8rem;
     padding-bottom: 1.8rem;

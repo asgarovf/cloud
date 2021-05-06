@@ -1,0 +1,73 @@
+#comingsoon {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/comingsoon.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 0px) {
+  .coming-soon-header-main {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700 !important;
+    padding: 1.4rem;
+    font-family: "Spartan", sans-serif;
+    line-height: 47px;
+  }
+  .coming-soon-header {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400 !important;
+    font-family: "Spartan", sans-serif;
+  }
+  .coming-soon-subheader {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400 !important;
+    font-family: "Spartan", sans-serif;
+  }
+}
+@media (min-width: 992px) {
+  .coming-soon-header {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    position: absolute;
+    left: 120px;
+    bottom: 20%;
+    font-weight: 400 !important;
+    margin: 0;
+  }
+  .coming-soon-subheader {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400 !important;
+    font-family: "Spartan", sans-serif;
+    position: absolute;
+    left: 120px;
+    bottom: 12%;
+  }
+  .coming-soon-header-main {
+    color: white;
+    font-size: 60px;
+    font-weight: 800 !important;
+    max-width: 400px;
+    position: absolute;
+    left: 90px;
+    bottom: 24%;
+    text-align: left;
+    line-height: 70px;
+    margin: 0;
+    letter-spacing: -1.5px;
+  }
+}

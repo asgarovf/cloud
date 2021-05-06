@@ -31,5 +31,14 @@
       "enterMsg": "Mesajınızı daxil edin...",
       "send": "Göndər"
     }
+  },
+  "landing": {
+    "header": "Azure, Google Cloud, Amazon kimi Bulud Texnologiyaları sahələrinə hakim ol.",
+    "subheader": "",
+    "whyCloud": "Niyə Cloud?",
+    "speed": "Sürət",
+    "development": "Development",
+    "monitoring": "Monitorinq",
+    "crossSaving": "Xərcləri azaltmaq"
   }
 }

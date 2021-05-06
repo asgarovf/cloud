@@ -26,6 +26,14 @@ module.exports = function getTranslationData(req) {
     formSubject: req.i18n.t("contact.form.subject"),
     formEnterMsg: req.i18n.t("contact.form.enterMsg"),
     formSendMsg: req.i18n.t("contact.form.send"),
+    landing: {
+      header: req.i18n.t("landing.header"),
+      whyCloud: req.i18n.t("landing.whyCloud"),
+      speed: req.i18n.t("landing.speed"),
+      development: req.i18n.t("landing.development"),
+      monitoring: req.i18n.t("landing.monitoring"),
+      crossSaving: req.i18n.t("landing.crossSaving"),
+    },
   };
   return tData;
 };

@@ -31,5 +31,14 @@
       "enterMsg": "Enter your message...",
       "send": "Send Message"
     }
+  },
+  "landing": {
+    "header": "Master Azure, Google Cloud, Amazon from the certified cloud experts.",
+    "subheader": "",
+    "whyCloud": "Why Cloud?",
+    "speed": "Speed",
+    "development": "Development",
+    "monitoring": "Monitoring",
+    "crossSaving": "Cross saving"
   }
 }

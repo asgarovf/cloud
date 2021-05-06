@@ -9,7 +9,7 @@
 body {
   font-family: "Poppins", sans-serif;
   max-width: 100% !important;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 /* HEADER */
@@ -90,7 +90,7 @@ body {
   .navigation-small {
     display: none;
     padding-top: 1rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     position: relative;
     z-index: 1003 !important;
   }
@@ -135,6 +135,13 @@ body {
   #services-small-menu ul li a,
   #home-small-menu ul li a {
     font-weight: 400 !important;
+  }
+  .nav-sm-social {
+    justify-content: center;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 }
 @media (min-width: 1200px) {

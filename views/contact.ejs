@@ -14,11 +14,11 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-11 col-lg-8">
-                        <h1 class="services-banner-header">Contact</h1>
-                        <p class="services-banner-subheader">
+                        <h1 class="services-banner-header"><%= tData.contactTitle %></h1>
+                       <!--  <p class="services-banner-subheader">
                             Why I say old chap that is spiffing off his nut arse pear shaped plastered
                             Jeffrey bodge barney some dodgy.!!
-                        </p>
+                        </p> -->
                     </div>
                 </div>
             </div>
@@ -30,21 +30,20 @@
                     <div class="col-10 col-lg-4">
                         <div class="contact-box">
                             <div class="contact-box-item">
-                                <h6>Office Address</h6>
-                                <p>Melbourne’s GPO 434 Bourke St. Dhaka VIC 3074, Australia</p>
+                                <h6><%= tData.officeAdd %></h6>
+                                <p><%= tData.address %></p>
                             </div>
 
                             <div class="contact-box-item">
-                                <h6>Contact Info</h6>
-                                <p>Phone: (+096) 302 443 7488</p>
-                                <p>Fax: (+096) 204 353 6684</p>
-                                <p>Email:  saasland@gmail.com</p>
+                                <h6><%= tData.info %></h6>
+                                <p><%= tData.phone %></p>
+                                <p><%= tData.email %></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-10 col-lg-8">
                         <div class="contact-map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.078440372762!2d-73.98459478506253!3d40.73829947932906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2590a7a9839b3%3A0x117169e7a68dc296!2s220%20E%2023rd%20St%2C%20New%20York%2C%20NY%2010010%2C%20Amerika%20Birle%C5%9Fik%20Devletleri!5e0!3m2!1str!2s!4v1619614614841!5m2!1str!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.0561567569885!2d49.826520115394956!3d40.3854479793687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d9bed3abf25%3A0x150cd39880b77520!2sLotfi%20Zadeh%20Technology%20Center!5e0!3m2!1str!2s!4v1620319583109!5m2!1str!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                             <div class="contact-map-mask"></div>
                         </div>
                     </div>
@@ -57,30 +56,30 @@
                 <form action="#">
                     <div class="row">
                         <div class="col-12">
-                            <h4 class="leave-a-message">Leave a message</h4>
+                            <h4 class="leave-a-message"><%= tData.leaveMsg %></h4>
                         </div>
                     </div>
                     <div class="row justify-content-center mt-4">
                         <div class="col-10 col-lg-6">
-                            <input class="contact-input" type="text" placeholder="Your Name" required>
+                            <input class="contact-input" type="text" placeholder="<%= tData.formName %>"" required>
                         </div>
                         <div class="col-10 col-lg-6 mt-4 mt-lg-0">
-                            <input class="contact-input" type="email" placeholder="Email" required>
+                            <input class="contact-input" type="email" placeholder="<%= tData.formEmail %>" required>
                         </div>
                     </div>
                     <div class="row justify-content-center mt-4">
                         <div class="col-10 col-lg-12">
-                            <input class="contact-input" type="text" placeholder="Subject" required>
+                            <input class="contact-input" type="text" placeholder="<%= tData.formSubject %>"  required>
                         </div>
                     </div>
                     <div class="row justify-content-center mt-4">
                         <div class="col-10 col-lg-12">
-                            <textarea id="" cols="30" rows="8" class="contact-input" placeholder="Enter your message..." required></textarea>
+                            <textarea id="" cols="30" rows="8" class="contact-input" placeholder="<%= tData.formEnterMsg %>" required></textarea>
                         </div>
                     </div>
-                    <div class="row mt-4">
-                        <div class="col-12">
-                            <button type="submit" class="contact-button" >Send Message</button>
+                    <div class="row mt-4 justify-content-center">
+                        <div class="col-10 col-lg-12">
+                            <button type="submit" class="contact-button" ><%= tData.formSendMsg %></button>
                         </div>
                     </div>
                 </form>

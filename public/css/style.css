@@ -91,7 +91,6 @@ body {
     display: none;
     padding-top: 1rem;
     padding-bottom: 4rem;
-    z-index: 1002;
     position: relative;
   }
   .navigation-small.active {
@@ -99,6 +98,7 @@ body {
     top: 80px;
     background: white;
     width: 100%;
+    z-index: 1003 !important;
     padding-top: 1rem;
     padding-bottom: 2rem;
   }

@@ -1,0 +1,31 @@
+module.exports = function getTranslationData(req) {
+  const tData = {
+    switchLang: req.i18n.t("languageHeaders.switchLang"),
+    switchLink: req.i18n.t("languageHeaders.switchLink"),
+    educationPrograms: req.i18n.t("navbar.educationPrograms"),
+    academy: req.i18n.t("navbar.academy"),
+    services: req.i18n.t("navbar.services"),
+    contact: req.i18n.t("navbar.contact"),
+    model: req.i18n.t("navbar.model"),
+    aboutUs: req.i18n.t("navbar.aboutUs"),
+    partners: req.i18n.t("navbar.partners"),
+    faq: req.i18n.t("navbar.faq"),
+    service1: req.i18n.t("navbar.service1"),
+    service2: req.i18n.t("navbar.service2"),
+    service3: req.i18n.t("navbar.service3"),
+    service3: req.i18n.t("navbar.service3"),
+    contactTitle: req.i18n.t("contact.title"),
+    officeAdd: req.i18n.t("contact.officeAdd"),
+    address: req.i18n.t("contact.address"),
+    info: req.i18n.t("contact.info"),
+    phone: req.i18n.t("contact.phone"),
+    email: req.i18n.t("contact.email"),
+    leaveMsg: req.i18n.t("contact.leaveMsg"),
+    formName: req.i18n.t("contact.form.name"),
+    formEmail: req.i18n.t("contact.form.email"),
+    formSubject: req.i18n.t("contact.form.subject"),
+    formEnterMsg: req.i18n.t("contact.form.enterMsg"),
+    formSendMsg: req.i18n.t("contact.form.send"),
+  };
+  return tData;
+};

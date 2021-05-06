@@ -1,0 +1,35 @@
+{
+  "languageHeaders": {
+    "switchLang": "EN",
+    "switchLink": "?lng=az"
+  },
+  "navbar": {
+    "educationPrograms": "Education Programs",
+    "academy": "Academy",
+    "services": "Services",
+    "contact": "Contact",
+    "model": "Model of Education",
+    "aboutUs": "About Us",
+    "partners": "Partners",
+    "faq": "FAQ",
+    "service1": "Amazon Web Services (AWS)",
+    "service2": "Miscrosoft Azure",
+    "service3": "Google Cloud Platform (GCP)"
+  },
+  "contact": {
+    "title": "Contact",
+    "officeAdd": "Office Address",
+    "address": "Caspian Plaza, Plaza 1, 14-16,18 floors AZ1065 Baku, Azerbaijan (Lotfi Zadeh Technology Center)",
+    "info": "Contact Info",
+    "phone": "Phone: (+99455) 315 99 00",
+    "email": "Email: hello@cloudacademy.az",
+    "leaveMsg": "Leave a message",
+    "form": {
+      "name": "Your name",
+      "email": "Email",
+      "subject": "Subject",
+      "enterMsg": "Enter your message...",
+      "send": "Send Message"
+    }
+  }
+}

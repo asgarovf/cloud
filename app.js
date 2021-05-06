@@ -3,10 +3,31 @@ var express = require("express");
 var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
+const i18next = require("i18next");
+const i18nextMiddleware = require("i18next-express-middleware");
+const Backend = require("i18next-node-fs-backend");
+
+i18next
+  .use(Backend)
+  .use(i18nextMiddleware.LanguageDetector)
+  .init({
+    backend: {
+      loadPath: __dirname + "/locales/{{lng}}/{{ns}}.json",
+    },
+    detection: {
+      order: ["querystring", "cookie"],
+      caches: ["cookie"],
+    },
+    fallbackLng: "en",
+    preload: ["en", "az"],
+  });
 
 var indexRouter = require("./routes/index");
 
 var app = express();
+
+//localization
+app.use(i18nextMiddleware.handle(i18next));
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"));

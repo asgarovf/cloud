@@ -7,35 +7,35 @@
                        <a href="/" id="brand"><span>Cloud Academy</span></a>
                     </div>
                     <div class="nav-links">
-                        <a href="#" id="home"><span id="nbh__1">Academy</span></a>
+                        <a href="#" id="home"><span id="nbh__1"><%= tData.academy %></span></a>
                         <div id="home-menu" class="d-none">
-                          <span id="nb__1-1"><a href="/about-us">About Us</a></span>
-                          <span id="nb__1-2"><a href="/">Partners</a></span>
-                          <span id="nb__1-3"><a href="/faq">FAQ</a></span>
+                          <span id="nb__1-1"><a href="/about-us"><%= tData.aboutUs %></a></span>
+                          <span id="nb__1-2"><a href="/"><%= tData.partners %></a></span>
+                          <span id="nb__1-3"><a href="/faq"><%= tData.faq %></a></span>
                         </div>
 
-                        <a href="#" id="services"><span id="nbh__2">Education Programs</span></a>
+                        <a href="#" id="services"><span id="nbh__2"><%= tData.educationPrograms %></span></a>
                         <div id="services-menu" class="d-none">
-                          <span id="nb__2-1"><a href="/services/1">Amazon Web Services (AWS)</a></span>
-                          <span id="nb__2-2"><a href="/services/2">Miscrosoft Azure</a></span>
-                          <span id="nb__2-3"><a href="/services/3">Google Cloud Platform (GCP)</a></span>
+                          <span id="nb__2-1"><a href="/services/1"><%= tData.service1 %></a></span>
+                          <span id="nb__2-2"><a href="/services/2"><%= tData.service2 %></a></span>
+                          <span id="nb__2-3"><a href="/services/3"><%= tData.service3 %></a></span>
                         </div>
-                        <a href="/process" id="test"><span id="nbh__3">Model of Education</span></a>
-                        <a href="/contact" id="contact"><span id="nbh__4">Contact</span></a>
+                        <a href="/process" id="test"><span id="nbh__3"><%= tData.model %></span></a>
+                        <a href="/contact" id="contact"><span id="nbh__4"><%= tData.contact %></span></a>
                     </div>
                     <div>
                     </div>
                     <div>
                       <div class="social">
-	                <a target="_blank" href="https://www.linkedin.com/company/cloud-academy-ca">
+	                    <a target="_blank" href="https://www.linkedin.com/company/cloud-academy-ca">
                           <i class="fab fa-linkedin"></i>
                         </a>
                         <a target="_blank" href="https://www.facebook.com/CloudAcademy-101252522140677">
                            <i class="fab fa-facebook"></i>
                         </a>
 
-                        <a href="/az">
-                          <i class="fas fa-globe mr-0 ml-5"></i> EN
+                        <a href=<%= tData.switchLink %>>
+                          <i class="fas fa-globe mr-0 ml-5"></i> <%= tData.switchLang %>
                         </a>
                       </div>
                   </div>

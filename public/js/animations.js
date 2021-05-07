@@ -1,3 +1,5 @@
+AOS.init();
+
 $(function () {
   $(window).scroll(function () {
     const security = $("#security").offset().top + 100;
